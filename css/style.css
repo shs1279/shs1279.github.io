@@ -2,3 +2,10 @@
 h1{
     background: gold;
 }
+.bx-wrapper{
+    border: 0;
+    box-shadow: none;
+}
+.slider img{
+    width: 50%;
+}
