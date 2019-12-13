@@ -1,11 +1,105 @@
 @charset "utf-8";
-h1{
-    background: gold;
+
+/*reset*/
+body {margin: 0;}
+h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, p {margin: 0; padding: 0;}
+header, main, footer, article, section, aside, nav {display: block;}
+a, dt, dl, dd {text-decoration: none; color: white;}
+a img {border: none;}
+li {list-style: none;}
+table {border-collapse: collapse;}
+address, em {font-style: normal;}
+
+
+#wrapper{
+    
+    width: 1366px;
+    height: 768px;
 }
-.bx-wrapper{
-    border: 0;
-    box-shadow: none;
+
+/* menu */
+
+
+#menu{
+    width: 100%;
+    height: 10%;
+    background-color: rgba( 0, 0, 0, 0.3 );
+    position: fixed;
 }
-.slider img{
-    width: 50%;
+/* gnb */
+
+
+.gnb{
+    width: 60%;
+    height: 10%;
+    margin: 0 auto;
+    z-index: 9999;
+}
+.gnb li{
+    width: 20%;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+}
+
+/* portfolio */
+#portfolio1{
+    width: 100%;
+    height: 768px;
+    background: #1b6396 ;
+}
+#hello h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+#hello h2{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+#portfolio2{
+    width: 100%;
+    height: 768px;
+    background: #dd426b;
+}
+#portfolio3{
+    width: 100%;
+    height: 768px;
+    background: #df5347;
+}
+#portfolio4{
+    width: 100%;
+    height: 768px;
+    background:  #ffc74f;
+}
+#portfolio5{
+    width: 100%;
+    height: 768px;
+    background:  #ffaa42;
+}
+
+#profile{
+    text-align: center;
+}
+#profile img{
+    margin-top: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+dl{
+    line-height: 50px;
+}
+dt{
+    font-weight: bold;
+    font-size: larger;
+}
+dd{
+    font-style: italic;
 }
