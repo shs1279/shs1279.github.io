@@ -8,7 +8,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="script/jquery-1.12.4.min.js"></script>
     <script src="script/main.js"></script>
-    <title>Document</title>
+    <title>서희성 포트폴리오</title>
+    <script>
+        $(function(){
+            console.log($("#whoweare").offset().top);
+            $("#bt01").click(function(){
+                $("html,body").animate({
+                    scrollTop:800
+                });
+            });
+            $("#bt02").click(function(){
+                $("html,body").animate({
+                    scrollTop:1600
+                });
+            });
+            $("#bt03").click(function(){
+                $("html,body").animate({
+                    scrollTop:2400
+                });
+            });
+            $("#bt04").click(function(){
+                $("html,body").animate({
+                    scrollTop:3200
+                });
+            });
+            $("#bt05").click(function(){
+                $("html,body").animate({
+                    scrollTop:4000
+                });
+            });
+        })
+        </script>
 </head>
 <body>
     <div id="wrapper">
@@ -16,11 +46,11 @@
              <div id="menu">
                 <div class="gnb">
                     <ul>
-                        <li><a href="#">menu1</a></li>
-                        <li><a href="#">menu2</a></li>
-                        <li><a href="#">menu3</a></li>
-                        <li><a href="#">menu4</a></li>
-                        <li><a href="#">menu5</a></li>
+                        <li id="bt01"><a href="#">menu1</a></li>
+                        <li id="bt02"><a href="#">menu2</a></li>
+                        <li id="bt03"><a href="#">menu3</a></li>
+                        <li id="bt04"><a href="#">menu4</a></li>
+                        <li id="bt05"><a href="#">menu5</a></li>
                     </ul>
                 </div>
             </div>
